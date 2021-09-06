@@ -8,7 +8,7 @@ export default function App() {
   }, [counter]);
 
   return (
-    <div style={{textAlign: 'center', backgroundColor: 'white'}}>
+    <div style={{textAlign: 'center'}}>
       <h1>Counter App</h1>
       <h3>Click the button to increment:</h3>
       <h4>{counter}</h4>
